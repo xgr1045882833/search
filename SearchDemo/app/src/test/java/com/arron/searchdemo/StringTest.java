@@ -18,4 +18,9 @@ public class StringTest {
         System.out.println(substring1);
     }
 
+    @Test
+    public void test02() {
+
+    }
+
 }
