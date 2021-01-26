@@ -22,5 +22,10 @@ public class StringTest {
     public void test02() {
 
     }
+    
+    @Test
+    public void test03() {
+
+    }
 
 }
