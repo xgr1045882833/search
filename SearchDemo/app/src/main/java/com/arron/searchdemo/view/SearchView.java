@@ -1,5 +1,6 @@
 package com.arron.searchdemo.view;
 
+import android.app.Activity;
 import android.content.Context;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -155,6 +156,7 @@ public class SearchView extends LinearLayout implements View.OnClickListener {
                 ivDelete.setVisibility(GONE);
                 break;
             case R.id.search_btn_cancle:
+                ((Activity) mContext).finish();
                 break;
         }
     }

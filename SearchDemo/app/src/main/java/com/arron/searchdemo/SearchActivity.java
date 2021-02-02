@@ -172,7 +172,7 @@ public class SearchActivity extends AppCompatActivity implements SearchView.Sear
         lvResults.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(SearchActivity.this, position + "", Toast.LENGTH_SHORT);
+                Toast.makeText(SearchActivity.this, position + "", Toast.LENGTH_SHORT).show();
             }
         });
     }
