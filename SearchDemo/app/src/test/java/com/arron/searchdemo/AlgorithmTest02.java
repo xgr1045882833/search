@@ -72,8 +72,8 @@ public class AlgorithmTest02 {
         if (arr == null || arr.length < 2) {
             return arr;
         }
-        for (int i = 0; i < arr.length; i++) {
-            int insertNote = arr[i];
+        for (int i = 1; i < arr.length; i++) {
+            int insertNote = arr[i];//待插入的数
             int j = i - 1;
             while (j >= 0 && insertNote < arr[j]) {
                 arr[j + 1] = arr[j];
